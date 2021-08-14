@@ -1,0 +1,17 @@
+{
+  "*": {
+    "Little 3D Importer": "OBJ模型导入"
+  },
+  "com.creativemd.creativecore.common.gui.mc.GuiContainerSub": {
+    "Path to texture": "材质路径",
+    "Grid": "网格",
+    "Max size": "最大尺寸",
+    "Use .mtl File": "使用.mtl文件 ",
+    "Use Texture": "使用材质",
+    "Path to model": "模型路径",
+    "Base block": "基础方块",
+    "Precision": "精度",
+    "Import!": "导入",
+    "Use Color": "使用颜色"
+  }
+}

@@ -1,0 +1,137 @@
+{
+  "*": {
+    //通用
+    "type: solid": "类型: 实心",
+    "type: hollow": "类型: 空心",
+    //锤子
+    "can be used to chisel blocks": "可用于雕凿方块",
+    "mode: box": "选区类型：长方体",
+    "thickness: 1 tiles": "厚度: 1",
+    //锯子
+    "rightclick to increase and": "右键 延长",
+    "shift+rightclick to decrease": "shift+右键 缩进",
+    "the size of a placed tile": "已放置方块的大小",
+    //螺丝刀
+    "1: left-click": "左键:选定第1点",
+    "2: right-click": "右键:选定第2点",
+    "creative mode only": "仅限创造模式",
+    //凿子
+    "shape: box": "形状：长方体",
+    //画笔
+    "click: dyes a tile": "左键 上色",
+    "shift+click: copies tile's color": "中键 拾取颜色",
+    "shape: tile": "形状:结构元件",
+    //电闸
+    "Basic Lever": "电闸",
+    "structure: fixed": "结构：固定",
+    "contains 3 tiles": "包含 3 结构元件",
+    //双开门
+    "Double Door": "双开门",
+    "structure: doorActivator": "结构：门(触发器)",
+    "contains 11 tiles": "包含 11 结构元件",
+    //电灯开关
+    "Light Switch": "电灯开关",
+    "contains 9 tiles": "包含 9 结构元件",
+    //座灯
+    "Little Light": "座灯",
+    "structure: light": "结构：光照",
+    "contains 4 tiles": "包含 4 结构元件",
+    //激活板(玩家)
+    "Activation Plate (Players)":"激活板(玩家)",
+    "contains 8 tiles": "包含 8 结构元件",
+    //激活板(实体)
+    "Activation Plate (Entities)":"激活板(实体)",
+    //石砖
+  	"Dyeable Chiseled": "无色錾制石砖",
+  	//条纹
+  	"Dyeable Strips": "无色条纹",
+  	//木塞
+  	"Dyeable Cork": "酒瓶木塞",
+    //瀑布
+	  "§ftile.colored_waterfall_block.name": "{x=auto}瀑布方块",
+    //比较器
+    "Magnitude Comparator": "幅度比较器"
+  },
+  "com.creativemd.creativecore.common.gui.mc.GuiContainerSub": {
+    "§ftile.colored_waterfall_block.name": "{x=auto}瀑布方块",
+    "click on \"Auto Scale Image?\" to scale it down to a valid size.": "§c像素总量超过上限，请重新设置。§r(默认全图不能超过9604像素)",
+    "To change the limit and you are in single player or owner of the server go": "解决方法:1.先点击“自动缩放”后再打印",
+    "to the config folder then open alet.json and change maxPixelAmount. Be Warned,": "2.通过修改配置文件(/config/alet.json)调整像素总量上限",
+    "as the image size increases so does the time it takes. Large photos can even": " ",
+    "freeze your game for tens of minutes.": "备 注:1.像素总量大的图像转换往往需要大量时间,有时会导致游戏崩溃",
+    //导入台、导出台界面
+    "structure": "{x=auto}结构",
+    "model": "模型",
+    "Copy": "复制",
+    "Either no path was entered or the path is": "§c输入的路径无效:",
+    "incorrect. Make sure your path ends with .png or": "请修改文字框中的内容。如果是本地路径,那么",
+    ".jpeg": "填入的路径内容必须以.png /.jpeg /.jpg结尾",
+    "Import": "{x=auto}导入",
+    //功能设置
+    "type": "{x=auto,y=1,scale=1}类型",
+    "box": "{x=auto,y=1,scale=1}长方体",
+    "hollow": "空心",
+    "connected":"{x=auto,y=1,scale=1}相连结构（相同ID）",
+    "slice":"{x=auto,y=1,scale=1}斜面",
+    "inner_corner": "{x=auto,y=1,scale=1}阴角",
+    "second-type":"第二形态",
+    "outer_corner": "{x=auto,y=1,scale=1}阳角",
+    "polygon": "{x=auto,y=1,scale=1}体素多边形",
+    "wall": "{x=auto,y=1,scale=1}墙面",
+    "facing: x":"{x=auto}轴向: X",
+    "facing: y":"{x=auto}轴向: Y",
+    "facing: z":"{x=auto}轴向: Z",
+    "pillar": "{x=auto,y=1,scale=1}柱形",
+    "curve": "{x=auto,y=1,scale=1}曲线",
+    "cosine": "余弦",
+    "cubic": "{x=auto}三次方",
+    "linear": "{x=auto}线性",
+    "curvewall":"{x=auto,y=1,scale=1}弧形墙",
+    "cylinder":"{x=auto,y=1,scale=1}圆柱体",
+    "sphere":"{x=auto,y=1,scale=1}球体",
+    "pyramid":"{x=auto,y=1,scale=1}金字塔",
+    "facing: up":"{x=auto}轴向: 上",
+    "facing: north":"{x=auto}轴向: 北",
+    "facing: south":"{x=auto}轴向: 南",
+    "facing: west":"{x=auto}轴向: 西",
+    "facing: east":"{x=auto}轴向: 东",
+    "facing: down":"{x=auto}轴向: 下",
+    "tile":"{x=auto,y=1,scale=1}横截面",
+    "more":"更多",
+    "basic":"基础",
+    //ctrl+c
+    "any":"任何",
+    "Metadata":"元数据",
+    //图纸蓝图GUI
+    "none":"无命名",
+	  "open axis": "轴心线",
+	  "slowness (cobwebs)": "穿越时减速(类似蛛网)",
+	  "invisible storage tiles": "隐藏贮存方块",
+	  "Position": "总进度",
+  	//粒子效果块
+	  "dust_fade_out": "{x=auto}尘埃:消散",
+  	"dust": "尘埃",
+  	"dust_grow": "{x=auto}尘埃:膨胀",
+  	"bubble": "{x=auto}气泡",
+  	"diamond": "{x=auto}钻石",
+  	"square": "{x=auto}方形",
+  	"spark": "{x=auto}菱形",
+  	"spiral": "{x=auto}螺旋",
+  	"star": "{x=auto}星形",
+  	"note": "{x=auto}音符",
+  	"flame": "{x=auto}火苗",
+  	"happy": "{x=auto}高兴",
+  	"angry": "{x=auto}生气",
+  	"damage": "{x=auto}伤心",
+  	"letter": "{x=auto}文字",
+  	"water": "{x=auto}水花",
+  	"heart": "{x=auto}爱心",
+  	"suspend": "{x=auto}休止符",
+  	"lava": "{x=auto}岩浆",
+  	"random": "随机",
+  	"circular": "循环",
+    //工作台
+    "craft": "生成",
+    "Okay": "确认"
+  }
+}

@@ -1,0 +1,68 @@
+{
+  "*": {
+    //卷尺
+    "Measurment ": "测量值",
+    "THIS IS IN ALPHA!\nDesign Will Change.\n": "本工具尚处于测试阶段",
+    //漏斗
+    "Item Importer": "物品入口",
+    "Item Exporter": "物品出口"
+  },
+  "com.creativemd.creativecore.common.gui.mc.GuiContainerSub": {
+    //功能设置
+    "magic_wand":"{x=auto,y=1,scale=1}魔棒工具",
+    "tolerance: ":"容差: ",
+    //图片导入
+  	"Use file path": "使用本地路径",
+    "Use a URL": "使用网址路径",
+    "Keep Aspect Ratio?": "保持长宽比例?",
+    "Auto Scale Image": "自动缩放图像",
+    "Paste": "粘贴",
+    "Print": "打印",
+    "Up": "{scale=0.8}向上",
+    "Down": "{scale=0.8}向下",
+    //文字导入
+    "Print ": "打印",
+    "Rotate Text": "旋转文字",
+    "Text to Exported": "需要导出的文字",
+    "Font Size": "文字大小",
+    "The text field for the text that will be exported is": "§c没有文字被成功生成:",
+    "empty. Please enter a digit(s) and or character(s)": "因为你压根没在文字框中输入内容。",
+    "empty Please enter a digits and or characters": "请在文字框中输入内容。",
+    //卷尺
+    "Click: Deletes all measurements": "点击：删除所有测量值",
+    "Hold Shift and Click: Deletes selected measurement": "按住Shift键并点击：删除选定的测量值",
+    "Clear": "清除",
+    //凿子提示
+    "?": "{x=auto}提示",
+    ///颜色滑块
+    "Color Slider:": "颜色滑块：",
+    "Sets the color value.": "§7设置色值",
+    "1st Slider: Red": "§7第一个滑块：红色",
+    "2nd Slider: Green": "§7第二个滑块：绿色",
+    "3rd Slider: Blue": "§7第三个滑块：蓝色",
+    "4th Slider: Alpha": "§7第四个滑块：透明度",
+    "5th Slider: Tone": "§7第五个滑块：色调",
+    "Controls:": "控制说明：",
+    "Right Click to enter value a":"§7右键单击输入数值",
+    "value":"",
+    "Click and drag to adjust color":"§7单击并拖动以调整颜色",
+    "Mouse wheel adjusts color by":"§7鼠标滚轮调整色值",
+    "1.":"§7（间隔数值 1）",
+    "CTRL+Mouse wheel adjusts":"§7CTRL+鼠标滚轮调整色值",
+    "color by 10":"§7（间隔数值 10）",
+    ///材料 
+    "Material:":"材料：",
+    "Select the type of block the":"§7选择方块的类型，",
+    "chisel will place.":"§7用于凿子放置。",
+    "Click and select an option. If":"§7单击并选择一个选项。如果",
+    "in survival mode you will only":"§7在生存模式下，你只能看见",
+    "see blocks you have in a": "§7在收纳袋或库存中的方块。",
+    "Little Bag or inventory.":"",
+    "You can also seach for blocks":"§7你也可以搜索方块，",
+    "at the top of the drop down":"§7在下拉列表的顶部搜索框中。",
+    "menu.":"",
+    ///形状
+    "Shape:":"形状:"
+    
+  }
+}
